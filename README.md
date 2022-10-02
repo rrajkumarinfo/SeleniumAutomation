@@ -1,5 +1,6 @@
 # SeleniumAutomation
-Sample Program for Selenium Automation
+Sample Program for Selenium Automation:
+
 Required Software:-
   Install JDK & Eclipse
   Add Maven dependencies (Pom.xml)
