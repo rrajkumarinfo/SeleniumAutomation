@@ -1,0 +1,22 @@
+Week3.Day2
+🍫🍫🍫🍫🍫🍫🍫🍫🍫🍫🍫🍫
+Assignment 1
+Interface
+Interface :Language
+     Methods   :Java()
+     Methods   :javaScript()
+     Methods   : ruby()
+     Interface :TestTool
+     Methods   :Selenium()
+     Class :MultipleLangauge
+     Methods   :python() 
+  Execution class: Automation 
+Implement all the methods of interface and excute in Automation class
+
+Assignment 2
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/RemoveDuplicatesWords.java
+2.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/MissingNumber.java
+3.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/PrintDuplicateNumbers.java
+4.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/FindSecondLargest.java
+5.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Classroom/RemoveDuplicates.java
+6.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Classroom/SortingUsingCollection.java
