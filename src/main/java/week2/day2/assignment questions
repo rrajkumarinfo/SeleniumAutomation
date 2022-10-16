@@ -1,0 +1,38 @@
+Week2.Day2
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+
+Assignment:1
+
+FaceBook:
+================================
+// Step 1: Download and set the path 
+// Step 2: Launch the chromebrowser
+// Step 3: Load the URL https://en-gb.facebook.com/
+// Step 4: Maximise the window
+// Step 5: Add implicit wait
+// Step 6: Click on Create New Account button
+// Step 7: Enter the first name
+// Step 8: Enter the last name
+// Step 9: Enter the mobile number
+// Step 10: Enterthe password
+// Step 11: Handle all the three drop downs
+// Step 12: Select the radio button "Female" 
+            ( A normal click will do for this step) 
+
+Assignment:2
+==================================================
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week2/day2.assignments/EditLead.java
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week2/day2.assignments/DeleteLead.java
+
+Assignment:3
+========================
+LeafGround Assignments
+***
+
+1.https://www.leafground.com/input.xhtml
+2.https://www.leafground.com/button.xhtml;jsessionid=node01uwse2e3mjhu41g6ob84cjmhcy363172.node0
+3.https://www.leafground.com/link.xhtml
+4.https://www.leafground.com/radio.xhtml
+5.https://www.leafground.com/checkbox.xhtml
+6.https://www.leafground.com/select.xhtml
+7.http://www.leafground.com/pages/table.html 
