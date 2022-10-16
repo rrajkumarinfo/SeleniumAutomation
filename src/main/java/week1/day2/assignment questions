@@ -1,0 +1,21 @@
+Week1.Day2
+
+Assignment1
+Create a class for TwoWheeler and declare below global variables with appropriate values
+int noOfWheels
+short noOfMirrors
+long chassisNumber
+boolean isPunctured
+String bikeName
+double runningKM
+create object for TwoWheeler and call all the variables inside main method and print the values.
+
+Assignment2
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day1/assignments/CheckIfTheNumberIsPositiveOrNegative.java
+2.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/FindSecondLargest.java
+3.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/FindSecondLargest.java
+4.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/PrintDuplicatesInArray.java
+5.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/assignments/mandatory/FindIntersection.java
+6.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day1/assignments/ArmstrongNumber.java
+7.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day1/assignments/PrimeNumber.java
+8.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day1/classroom/SumOfDigits.java
