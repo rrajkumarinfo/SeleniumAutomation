@@ -27,7 +27,7 @@ public class MissingNumber
 		int lenList1 = list1.size();
 		System.out.println("List length is :" + lenList1);
 		System.out.println("Missing number are :" );
-			for (int j = 0; j < lenList1; j++) 
+			for (int j = 0; j < lenList1-1; j++) 
 			{
 						if (!list1.get(j).equals(list1.get(j + 1) - 1)) 
 						//if (list1.get(j)!=(list1.get(j + 1) - 1))	
