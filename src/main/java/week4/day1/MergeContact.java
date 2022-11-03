@@ -36,39 +36,35 @@ public class MergeContact {
 		driver.findElement(By.xpath("//a[text()='Contacts']")).click();
 		driver.findElement(By.xpath("//a[text()='Merge Contacts']")).click();
 		//Select from 'From Contact'
-		driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div[2]/div/form/table/tbody/tr[1]/td[2]/a/img")).click();
+		driver.findElement(By.xpath("(//img[@alt='Lookup'])[1]")).click();
 		Set<String> windSet=driver.getWindowHandles();
 		List<String> windList=new ArrayList<String>(windSet);
 		driver.switchTo().window(windList.get(1));
 		driver.manage().window().maximize();
-		WebElement frmContact=driver.findElement(By.xpath("//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a"));
-		driver.executeScript("arguments[0].click()", frmContact);
-		//frmContact.click();
+		//WebElement frmContact=driver.findElement(By.xpath("//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a"));
+		//driver.executeScript("arguments[0].click()", frmContact);
+	
+		//Select first contact from 'From contact list table'
+		driver.findElement(By.xpath("(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[1]")).click();
+		
+	
 		
 		//back to main window control
 		driver.switchTo().window(windList.get(0));
 		
 		//Select from 'To Contact'
-		driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div[2]/div/form/table/tbody/tr[2]/td[2]/a/img")).click();
+		driver.findElement(By.xpath("(//img[@alt='Lookup'])[2]")).click();
 		
 		Set<String> windSet1=driver.getWindowHandles();
 		List<String> windList1=new ArrayList<String>(windSet1);
 		driver.switchTo().window(windList1.get(1));
 		driver.manage().window().maximize();
-		//WebElement toContact=driver.findElement(By.xpath("//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a"));
+		
 		Thread.sleep(3000);
-		WebElement toContact=driver.findElement(By.xpath("//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a"));
-		driver.executeScript("arguments[0].click()", toContact);
 		
-		 //WebElement element = driver.findElement(By.xpath("your xpath"));
-	      //JavascriptExecutor executor = (JavascriptExecutor)driver;
-	      //executor.executeScript("arguments[1].click();", toContact);
+		//Select 2nd contact from 'To contact list table'
 		
-	      //((JavascriptExecutor) driver).executeScript("arguments[0].click();", toContact);
-	      
-		//driver.executeScript("arguments[1].click()", toContact);
-		//toContact.click();
-		
+		driver.findElement(By.xpath("(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[2]")).click();
 		
 		
 		
@@ -85,8 +81,12 @@ public class MergeContact {
 		driver.switchTo().alert().accept();
 		driver.switchTo().window(windList1.get(0));
 		String titlePage= driver.getTitle();
-		System.out.println("Title of Home page is "+ titlePage);
+		System.out.println("Title of Home page is: "+ titlePage);
 		
+		if (titlePage.contains("View Contact"))
+			System.out.println(" identify the title is passed");
+		else
+			System.out.println(" identify the title is failed");
 		
 		
 	}
